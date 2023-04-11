@@ -10,7 +10,8 @@ public class Subway {
     }
     public void take(int money) {
         this.money = money;
-        passengerCount++;
+       // passengerCount++;
+        this.money = money * ++passengerCount;
     }
 
     public void showInfo() {
